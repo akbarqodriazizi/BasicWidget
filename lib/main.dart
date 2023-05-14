@@ -27,14 +27,11 @@ class _MyAppState extends State<MyApp> {
             padding: const EdgeInsets.all(8.0),
             child: Column(
               children: [
-                const TextField(
-                  decoration: InputDecoration(labelText: "Username"),
+                const TextField(decoration: InputDecoration(labelText: "Username"),
                 ),
-                const TextField(
-                  decoration: InputDecoration(labelText: ("Password")),
+                const TextField(decoration: InputDecoration(labelText: ("Password")),
                 ),
-                const SizedBox(
-                  height: 10,
+                const SizedBox(height: 10,
                 ),
                 ElevatedButton(onPressed: () {}, child: const Text("Login"))
               ],
